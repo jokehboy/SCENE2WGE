@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/WGE 2D Character/SkeletonScenes/Scene 2.unity
+  isLoaded: 1
+  isActive: 1

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<NodeCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TheNodes>
+    <Node NodeID="0" NPCText="Hey hows it going?">
+      <PlayerResponse>
+        <Response>Im doing okay</Response>
+        <Response>Im doing terribly</Response>
+        <Response>Im doing great</Response>
+      </PlayerResponse>
+      <ResponseDestinationNode>
+        <ResponseDestinationID>1</ResponseDestinationID>
+        <ResponseDestinationID>2</ResponseDestinationID>
+        <ResponseDestinationID>3</ResponseDestinationID>
+      </ResponseDestinationNode>
+    </Node>
+    <Node NodeID="1" NPCText="Thats good to hear">
+      <PlayerResponse>
+        <Response>Bye</Response>
+      </PlayerResponse>
+      <ResponseDestinationNode>
+        <ResponseDestinationID>4</ResponseDestinationID>
+      </ResponseDestinationNode>
+    </Node>
+    <Node NodeID="2" NPCText="Aww thats  a shame">
+      <PlayerResponse>
+        <Response>Bye</Response>
+      </PlayerResponse>
+      <ResponseDestinationNode>
+        <ResponseDestinationID>4</ResponseDestinationID>
+      </ResponseDestinationNode>
+    </Node>
+    <Node NodeID="3" NPCText="No need to brag about it">
+      <PlayerResponse>
+        <Response>Then why did you ask?</Response>
+        <Response>Bye</Response>
+      </PlayerResponse>
+      <ResponseDestinationNode>
+        <ResponseDestinationID>5</ResponseDestinationID>
+        <ResponseDestinationID>4</ResponseDestinationID>
+      </ResponseDestinationNode>
+    </Node>
+    <Node NodeID="4" NPCText="">
+      <PlayerResponse />
+      <ResponseDestinationNode />
+    </Node>
+    <Node NodeID="5" NPCText="Sorry Im not in a great mood today">
+      <PlayerResponse>
+        <Response>Bye</Response>
+      </PlayerResponse>
+      <ResponseDestinationNode>
+        <ResponseDestinationID>4</ResponseDestinationID>
+      </ResponseDestinationNode>
+    </Node>
+  </TheNodes>
+</NodeCollection>
